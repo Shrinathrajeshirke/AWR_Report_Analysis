@@ -1,0 +1,24 @@
+Steps:
+Load AWR Reports Data:
+Parse the AWR reports and load the relevant data into Pandas DataFrames. 
+
+Data Cleaning and Preprocessing:
+Clean and preprocess the data. Handle missing values, convert data types if necessary.
+
+Feature Selection:
+Identify the key performance metrics we want to analyze for anomaly detection. 
+
+Data Visualization:
+Plot time series graphs to visualize the trends and patterns in the selected metrics. This can help us to identify any unusual spikes or dips in the data.
+
+Statistical Analysis:
+Calculate statistical measures such as mean, standard deviation, and percentiles for each metric. Deviations from the expected values can be indicative of anomalies.
+
+Anomaly Detection Algorithms:
+anomaly detection algorithms 
+
+Visualize Anomalies:
+Plot the detected anomalies on the time series graphs. This visualization can help you understand when anomalies occurred and which metrics were affected.
+
+Thresholds and Alerts:
+Set thresholds for each metric, and trigger alerts when values exceed or fall below these thresholds. This can help automate the anomaly detection process.
